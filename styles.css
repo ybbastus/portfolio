@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    
+    margin: 0;
+    padding: 0;
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: #333; /* Cambia el color de fondo a gris oscuro */
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+/* Encabezado */
+header {
+    
+    background-color: #111; /* Cambia el color de fondo del encabezado a negro más oscuro */
+    text-size-adjust: 20px;
+    margin-right: 20px;
+    padding: 1em 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Secciones */
+.section {
+    padding: 2em;
+    border-bottom: 1px solid #555; /* Cambia el color del borde inferior a gris más claro */
+}
+
+/* Pie de página */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #111; /* Cambia el color de fondo del pie de página a negro más oscuro */
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
